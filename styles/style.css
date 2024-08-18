@@ -1,0 +1,892 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.initial_header {
+    background-color: black;
+
+}
+
+.initial_header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Summer_sales {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 220px;
+
+}
+
+.shop_now {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    right: 150px;
+}
+
+.English {
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+.english_arrow {
+    position: relative;
+    top: 5px;
+}
+
+/* Second header */
+.second_header {
+    position: relative;
+    bottom: 40px;
+}
+
+.second_header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Logo_exclusive {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    position: relative;
+    left: 100px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-left: 15px;
+}
+
+.looking_for {
+    color: black;
+    background-color: rgb(236, 236, 236);
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 200px;
+
+}
+
+.person {
+    position: relative;
+    left: 10px;
+}
+
+.basket {
+    position: relative;
+    left: 60px;
+}
+
+.heart {
+    position: relative;
+    left: 110px;
+}
+
+.search_thing {
+    position: relative;
+    left: 120px;
+}
+
+.horizontal {
+    position: relative;
+    bottom: 120px;
+}
+
+/* WISHLIST */
+.wishlist {
+    position: relative;
+    bottom: 150px;
+}
+
+.wishlist_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wishlist_title {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.move_all_to_bag {
+    border: 1px solid black;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+/* PRODUCTS */
+.products {
+    position: relative;
+    bottom: 160px;
+}
+
+.products_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.gucci_bag {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.discount_bag {
+    border: 1px solid #DB4444;
+    color: #FAFAFA;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #DB4444;
+    text-decoration: none;
+}
+
+.gucci_bottom {
+    position: relative;
+    top: 20px;
+}
+
+.gucci_image {
+    position: relative;
+    left: 40px;
+
+}
+
+.discount_bag {
+    position: relative;
+    left: 10px;
+}
+
+.gucci_add {
+    position: relative;
+
+}
+
+.gucci_box {
+    position: relative;
+    left: 165px;
+    top: 15px;
+}
+
+.gucci_add {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+}
+
+.gucci_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.gucci_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.gucci_price {
+    font-size: 16px;
+    color: #DB4444;
+}
+
+.gucci_discount {
+    font-size: 16px;
+    color: black;
+    position: relative;
+    left: 6px;
+}
+
+/* Game joystick */
+.gamejoystick {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.gamejoystick_bottom {
+    position: relative;
+    top: 83px;
+}
+
+.gamejoystick_image {
+    position: relative;
+    left: 13px;
+    top: 69px;
+
+}
+
+.gamejoystick_add {
+    position: relative;
+    top: 71px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+
+
+}
+
+.gamejoystick_box {
+    position: relative;
+    left: 225px;
+    bottom: 105px;
+}
+
+.gamejoystick_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.gamejoystick_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.gamejoystick_price {
+    font-size: 16px;
+    color: #DB4444;
+}
+
+/* Jacket */
+.jacket {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.jacket_bottom {
+    position: relative;
+    top: 56px;
+}
+
+.jacket_image {
+    position: relative;
+    left: 10px;
+    top: 45px;
+
+}
+
+.jacket_add {
+    position: relative;
+    top: 45px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+
+
+}
+
+.jacket_box {
+    position: relative;
+    left: 225px;
+    bottom: 130px;
+}
+
+.jacket_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.jacket_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.jacket_price {
+    font-size: 16px;
+    color: #DB4444;
+}
+
+/* Cpu cooler */
+.cpu_cooler {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.cooler_bottom {
+    position: relative;
+    top: 140px;
+}
+
+.cooler_image {
+    position: relative;
+    left: 20px;
+    top: 105px;
+
+}
+
+.cooler_add {
+    position: relative;
+    top: 125px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+
+
+}
+
+.cooler_box {
+    position: relative;
+    left: 225px;
+    bottom: 48px;
+}
+
+.cooler_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.cooler_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.cooler_price {
+    font-size: 16px;
+    color: #DB4444;
+}
+
+/* Just for you part */
+.just {
+    position: relative;
+    bottom: 80px;
+}
+
+.just_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.just_title {
+    font-size: 20px;
+    line-height: 26px;
+    position: relative;
+    right: 420px;
+}
+
+.see_all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    color: black;
+}
+
+/* Laptop */
+.second_products {
+    position: relative;
+    bottom: 100px;
+}
+
+.second_products_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.laptop {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.laptop_discount {
+    border: 1px solid #DB4444;
+    color: #FAFAFA;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #DB4444;
+    text-decoration: none;
+}
+
+.laptop_bottom {
+    position: relative;
+    top: 20px;
+}
+
+.laptop_image {
+    position: relative;
+    left: 40px;
+
+}
+
+.laptop_discount {
+    position: relative;
+    left: 10px;
+}
+
+.gucci_add {
+    position: relative;
+
+}
+
+.laptop_eye {
+    position: relative;
+    left: 165px;
+    top: 15px;
+}
+
+.laptop_add {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+}
+
+.laptop_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.laptop_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.laptop_price {
+    font-size: 16px;
+    color: #DB4444;
+    position: relative;
+    bottom: 14px;
+
+
+}
+
+.laptop_del {
+    font-size: 16px;
+    color: black;
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+/* Monitor */
+.monitor {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.monitor_bottom {
+    position: relative;
+    top: 65px;
+}
+
+.monitor_image {
+    position: relative;
+    left: 5px;
+    top: 50px;
+
+}
+
+.monitor_eye {
+    position: relative;
+    left: 225px;
+    bottom: 130px;
+}
+
+.monitor_add {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+    position: relative;
+    top: 42px;
+}
+
+.monitor_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.monitor_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.monitor_price {
+    font-size: 16px;
+    color: #DB4444;
+    position: relative;
+    top: 3px;
+
+
+}
+
+.monitor_stars {
+    position: relative;
+    top: 20px;
+}
+
+/* Gamepad */
+.gamepad {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.gamepad_discount {
+    border: 1px solid #00FF66;
+    color: #FAFAFA;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #00FF66;
+    text-decoration: none;
+}
+
+.gamepad_bottom {
+    position: relative;
+    top: 25px;
+}
+
+.gamepad_image {
+    position: relative;
+    left: 40px;
+
+}
+
+.gamepad_discount {
+    position: relative;
+    left: 10px;
+}
+
+.gamepad_eye {
+    position: relative;
+    left: 165px;
+    top: 25px;
+}
+
+.gamepad_add {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+}
+
+.gamepad_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.gamepad_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.gamepad_price {
+    font-size: 16px;
+    color: #DB4444;
+    position: relative;
+
+}
+
+.gamepad_stars {
+    position: relative;
+    top: 20px;
+}
+
+/* Keyboard */
+.keyboard {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+
+.keyboard_bottom {
+    position: relative;
+    top: 145px;
+}
+
+.keyboard_image {
+    position: relative;
+    top: 70px;
+
+}
+
+
+.keyboard_eye {
+    position: relative;
+    left: 225px;
+    bottom: 40px;
+}
+
+.keyboard_add {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding-left: 73px;
+    position: relative;
+    top: 120px;
+}
+
+.keyboard_add_text {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+
+
+}
+
+.keyboard_title {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.keyboard_price {
+    font-size: 16px;
+    color: #DB4444;
+    position: relative;
+
+}
+
+.keyboard_stars {
+    position: relative;
+    top: 20px;
+}
+
+/* Footer */
+.footer {
+background-color: black;
+width: 1440px;
+height: 440px;
+}
+.footer_container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.first_nav_list{  list-style: none;
+
+}
+.exlusive_nav_item a {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.subscribe_nav_item a { font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.first_nav_item a {
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+/* Second */
+.second_nav_list {
+    list-style: none;
+}
+.support_nav_item a {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.second_nav_item a {
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+/* third */
+.third_nav_list {
+    list-style: none;
+}
+.account_nav_item a {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.third_nav_item a {
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.fourth_nav_list {
+    list-style: none;
+}
+.quick_nav_item a {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+}
+.fourth_nav_item a {
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+/* Apps */
+.fifth {
+    position: relative;
+    left: 20px;
+}
+.download_app {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 7px;
+}
+.google_play {
+position: relative;
+bottom: 40px;
+}
+.app_store {
+    position: relative;
+    left: 85px;
+    bottom: 38px;
+}
+.apps {
+    position: relative;
+    bottom: 20px;
+}
+
+
